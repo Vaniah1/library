@@ -50,7 +50,7 @@ const LoginForm: React.FC<LoginFormProps> = ({toggleRegister}) => {
   };
 
   return (
-    <div className="min-h-screen mt-32">
+    <div className="min-h-screen mt-32 border-black">
       <div className="block max-w-3xl p-3 mx-auto md:flex md:items-center">
         <form className="p-20 bg-blue-500 rounded-lg shadow-lg sm:w-screen">
           <h1 className="flex justify-center m-2 text-4xl font-bold text-black">

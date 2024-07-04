@@ -19,3 +19,8 @@ export interface RegisterUserPayLoad {
     password:string,
     type: "ADMIN" | "EMPLOYEE" | "PATRON"
 }
+
+export interface FetchUserPayload {
+    userId :string,
+    property:"loggedInUser" | "profileUser"
+}
